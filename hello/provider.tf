@@ -9,8 +9,8 @@ terraform {
 
 provider "aws" {
   region = "us-west-2"
-  # access_key = "AKIA54CUWDUJL2I2AJMZ"
-  # secret_key = "jrkO1t8ictOXFCDYI7MKAFYOFX1eMgLXqTXhCb1l"
+  # access_key = 
+  # secret_key = 
 }
 
 resource "aws_s3_bucket" "example" {
